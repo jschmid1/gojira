@@ -462,7 +462,7 @@ gojira run bin/busted /kong-plugin/specs/
 gojira shell
   kong migrations bootstrap
   kong start
-  http :8001/ | jq '.["plugins"]["available_on_server"]["rate-limiting-advanced"]  # true!
+  http :8001/ | jq '.["plugins"]["available_on_server"]["rate-limiting-advanced"]'  # true!
 ```
 
 ### Access database console
